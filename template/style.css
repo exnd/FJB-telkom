@@ -1,0 +1,243 @@
+@font-face {
+  font-family: monsemi;
+  src: url(../font/Montserrat/Montserrat-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: proximabold;
+  src: url(../font/Proxima/ProximaBold.otf);
+}
+
+@font-face {
+  font-family: proximaregular;
+  src: url(../font/Proxima/ProximaRegular.otf);
+}
+
+@font-face {
+  font-family: proximathin;
+  src: url(../font/Proxima/Proxima\ Nova\ Thin.otf);
+}
+
+@font-face {
+  font-family: proximasemi;
+  src: url(../font/Proxima/FontsFree-Net-Proxima-Nova-Sbold.otf);
+}
+
+
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body,html{
+  width: 100%;
+  height: 100%;
+}
+
+.menubar{
+  height: 56px;
+  width: 100%;
+  background: white;
+  box-shadow: 0 2px 20px 0px rgba(0,0,0,0.1);
+  position: fixed;
+  top: 0;
+  z-index: 5;
+  transition: height 0.5s;
+  transition: top 0.3s;
+}
+
+.konten{
+  padding: 0!important;
+  width: 100%!important;
+}
+
+#formsearch{
+  position: relative;
+  top: 100px;
+  display: none;
+  width: 100%;
+  padding: 4px!important;
+}
+
+.logobar{
+  position: absolute;
+  line-height: 56px;
+  margin-left: 16px;
+}
+
+.logobar img{
+  height: 24px;
+  margin-top: 15px;
+}
+
+
+.searchbtn{
+  position: absolute;
+  right: 16px;
+  line-height: 56px;
+  font-size: 18px!important;
+  color: #F01F1F;
+
+}
+
+.searchinput{
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-bottom: 0.8px solid rgba(217,217,217,1);
+  line-height: 50px;
+  padding-right: 0px;
+  font-size: 28px;
+  color: #414141;
+  outline: none!important;
+  width: 100%;
+  font-family: proximasemi!important;
+}
+
+::placeholder {
+  color:  rgba(117,117,117,1);
+  opacity: 1;
+}
+
+.pilih{
+  padding-top: 40px;
+  margin: 0;
+  font-size: 10px;
+}
+
+.nopadding{
+  padding: 0!important;
+}
+.button1{
+  width: 100%;
+  text-align: left;
+  padding: 16px 16px;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  margin-bottom: 10px;
+  background: #ff4757;
+  color: white;
+  box-shadow: 0 2px 8px -4px rgba(119,119,119,0.4);
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+.button1:active {
+  background:#f54554;
+  transition: 0s;
+}
+
+.pilihan{
+  display: inline-block;
+  margin: 0;
+
+}
+
+.iconbut{
+  float: right;
+}
+
+
+
+.redbtn{
+    background-color: #ff4757!important;
+    color: white!important;
+    margin-bottom: 50px!important;
+}
+
+.sukses{
+  margin-top: 40px!important;
+}
+
+.post{
+  padding-top: 40px!important;
+  color: #ff4757
+}
+
+.logo{
+  padding-top: 100px;
+}
+
+p.hastag{
+  display: inline-block;
+  margin-top: 8px!important;
+  background: #F42C2C;
+  color: white;
+  font-family: monsemi!important;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+div.cari{
+  padding: 0!important;
+  margin: 8px 0px;
+
+}
+
+.caribtn{
+  background: #F42C2C!important;
+  color: white!important;
+  font-family: monsemi;
+  padding: 0px 16px!important;
+  box-shadow: 0 0px 5px -3px rgba(119,119,119,0.8)!important;
+}
+
+.inputcari{
+  border-color: white!important;
+  box-shadow: 0 0px 4.5px -3px rgba(119,119,119,0.8)!important;
+
+}
+
+.caripng{
+  margin-top: 36px!important;
+}
+
+.explore{
+  padding-top: 16px;
+  color: #F42C2C;
+  opacity: 0.5;
+}
+
+.pemisah{
+  margin-top: 32px!important;
+  margin-bottom: 16px!important;
+}
+
+.pemisahawal{
+  margin-top: 48px!important;
+  margin-bottom: 16px!important;
+}
+
+.pemisahpost{
+  margin-top: 36px!important;
+
+}
+
+.caption{
+  margin-top: 8px!important;
+  padding-bottom: 16px!important;
+  padding-left: 0px!important;
+  padding-right: 0px!important;
+}
+
+.caption h4{
+  margin: 8px 0px!important;
+  color: #F42C2C;
+}
+
+.firststack{
+  padding-top: 80px;
+}
+
+.imagepost{
+  margin-top: 80px!important;
+}
+
+.full{
+  width: 100%!important;
+}
+
+
+
